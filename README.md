@@ -2,7 +2,7 @@
 模型检索模块。
 cpp + ODBC +SQLServer
 
-####简介
+#### 简介
 * SQLOperator
 使用ODBC。封装了数据库底层的基本操作，包括数据库连接、SQL语句的执行等。
 
@@ -15,7 +15,7 @@ cpp + ODBC +SQLServer
 包括权重的计算，按照权重将检索结果排序等。
 
 
-####API
+#### API
 * ModelRetireval
     -  ```void RetirevalInit(SQLCHAR* database, SQLCHAR* name, SQLCHAR* password);```
     初始化方法。
@@ -28,7 +28,7 @@ cpp + ODBC +SQLServer
     TopNum：保留结果数目。
 
 
-####使用方法 & 示例程序
+#### 使用方法 & 示例程序
 只需要调用 **ModelRetireval.h**。
 ```cpp
 #include<iostream>
@@ -58,6 +58,6 @@ int main()
 }
 ```
 
-####ODBC配置
+#### ODBC配置
 可以参考以下博文：
 https://blog.csdn.net/huyuyang6688/article/details/9036745
